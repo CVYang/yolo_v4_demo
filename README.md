@@ -17,10 +17,16 @@ This is a yolo_v4 detection demo using c++ and libdarknet.so with camera
 
 ### 1.2 Compile
 
+git clone https://github.com/AlexeyAB/darknet.git
+
+copy darknet/cfg coco.names, cfg file and weights file to yolo_v4_demo
 
 git clone https://github.com/CVYang/yolo_v4_demo.git
 
+copy libdarknet.so to /usr/lib
+
 cmake .
+
 make
 
 ## 2. Run the code
